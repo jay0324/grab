@@ -30,7 +30,7 @@
             if (desktopMouseDownMove){
                 let movePOSX = previousPressPOSX - e.pageX;
                 let movePOSY = previousPressPOSY - (e.pageY-window.pageYOffset);
-                console.log('x:'+movePOSX+' / y:'+movePOSY);
+                //console.log('x:'+movePOSX+' / y:'+movePOSY);
                 previousPressPOSX = e.pageX;
                 previousPressPOSY = (e.pageY-window.pageYOffset);
                 $(this).scrollLeft($(this).scrollLeft()+movePOSX);
