@@ -1,0 +1,7 @@
+.grab {
+    cursor:grab;
+    user-select: none;
+    &.movehand{
+        cursor:grabbing;
+    }
+}
